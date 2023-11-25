@@ -1,0 +1,6 @@
+[deps]
+MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+SymbolicRegression = "8254be44-1295-4e6a-a16d-46603ac705cb"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
