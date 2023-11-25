@@ -28,9 +28,10 @@ I'm unsure if this is a fundamental issue (i.e., theres a magic number solution 
 
 ## Improvements
 - Include derivative information in the loss function
-- Simplify the resulting "magic add" function to just a constant in the final solution. Right now it's kept as magic_add(float32, )
+- Simplify the resulting "magic add" function to just a constant in the final solution. Right now it's kept as magic_add(input::float32, magic::float32) where the magic number is mapped to an integer (this way optimizers can actually search through magic numbers as if that space was continuous). 
+- 
 
-Thanks to @MilesCranmer for helping me understand the tricks and intricacies of the library and the solution itself. I learned a lot in this project.
+Thanks to [Miles Cranmer](https://github.com/milescranmer) for helping me understand the tricks and intricacies of the library and the solution itself. I learned a lot in this project.
 
 
 ## To run this script
