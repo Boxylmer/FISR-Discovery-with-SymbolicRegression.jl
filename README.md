@@ -29,7 +29,7 @@ I'm unsure if this is a fundamental issue (i.e., theres a magic number solution 
 ## Improvements
 - Include derivative information in the loss function
 - Simplify the resulting "magic add" function to just a constant in the final solution. Right now it's kept as magic_add(input::float32, magic::float32) where the magic number is mapped to an integer (this way optimizers can actually search through magic numbers as if that space was continuous). 
-- 
+- Make this a notebook!
 
 Thanks to [Miles Cranmer](https://github.com/milescranmer) for helping me understand the tricks and intricacies of the library and the solution itself. I learned a lot in this project.
 
@@ -37,6 +37,6 @@ Thanks to [Miles Cranmer](https://github.com/milescranmer) for helping me unders
 ## To run this script
 - First ensure Julia is installed on the machine (tested on 1.9).
 - Install dependencies via `] activate .` followed by  `instantiate` in the repl's package manager when in the git's directory.
-- run bitoperators.jl. Precompilation will take some time. 
+- run "main.jl". Precompilation will take some time. 
 - View results. Note that running it in VSCode or some interactive session will be more useful since you can run the blocks at the end that display plots (e.g., `# testing various outputs`)
 
